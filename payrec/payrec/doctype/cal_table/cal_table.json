@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-05 14:01:27.104064",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "total_of_sales_invoice",
+  "total_of_payment",
+  "difference_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "total_of_payment",
+   "fieldtype": "Data",
+   "label": "Total of Payment"
+  },
+  {
+   "fieldname": "difference_amount",
+   "fieldtype": "Currency",
+   "label": "Difference Amount"
+  },
+  {
+   "fieldname": "total_of_sales_invoice",
+   "fieldtype": "Data",
+   "label": "Total of Sales Invoice"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_virtual": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-05 16:16:59.646902",
+ "modified_by": "Administrator",
+ "module": "PayRec",
+ "name": "Cal Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
